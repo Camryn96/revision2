@@ -1,0 +1,47 @@
+/*entire page both ab/rel units used*/
+*{
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 2%;
+	border-width: 4em;
+	border-radius: 4pt ;
+}
+/*Absolute Unit.pixels*/
+h1 {
+	font-size: 60px;
+  }
+/*Absolute Unit.centimeters*/
+  h2{
+	font-style: italic;
+	font-size: 3cm;
+  }
+/*Relative unit.relative to the font size of the element*/
+  h3{
+	font-size: 3em;
+  }
+
+  /**Relative Unit relative to parent element*/
+  h4{
+	font-size: 150%;
+  }
+  /*Absolute Unit.picas*/
+  p {
+	font-size: 4pc;
+	line-height: 4pc;
+  }
+  /*list style.Absolute*/
+  ul {
+	margin: 75px;
+	padding: 1px;
+	font-size: 6em;
+	  font-style: oblique;
+  }
+  /*div class list and 2*/
+  .list{
+	color: blue;
+  }
+  .list2{
+	font-size: 3cm;
+	color: blue;
+  }
+  
